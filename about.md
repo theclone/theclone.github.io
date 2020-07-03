@@ -1,5 +1,6 @@
 ---
 title: About
+blurb: Hi there!
 ---
 # About page
 
