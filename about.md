@@ -4,4 +4,4 @@ blurb: Hi there!
 ---
 # About page
 
-This page tells you a little bit about me.
+Hi there! 
