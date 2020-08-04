@@ -93,6 +93,27 @@ p {
     max-width: 300px;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.vid-col {
+    flex: 30%;
+    margin: 2%;
+}
+
+#gem-shader {
+    width: 75%;
+}
+
+#shader-spook {
+    width: 100%;
+}
+
+#sleep-cutscene {
+    width: 100%;
+}
+
 ul {
     padding: 0;
 }
