@@ -99,8 +99,14 @@ h2 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
+}
+
+footer {
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-size: 14px;
 }
 
 #me-cover {
@@ -151,6 +157,33 @@ ul {
     list-style-type: none;
 }
 
+.project-item {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.project-item::after {
+    display:block;
+    content:"";
+    clear:both;
+}
+
+.left-half {
+    overflow: auto; 
+    float: left;
+    width: 40%;
+}
+
+.left-text {
+    margin-top: 10%;
+}
+
+.right-half {
+    overflow:auto;
+    float: right;
+    width: 40%;
+}
+
 body a {
     color: $nav-inactive;
     text-decoration: none;
@@ -159,6 +192,11 @@ body a {
 
 body a:hover {
     color: $nav-active;
+}
+
+.project-image {
+    max-width: 90%;
+    height: auto;
 }
 
 @keyframes dumb {

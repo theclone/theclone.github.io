@@ -4,11 +4,17 @@ title: Projects
 <h1>My Projects</h1>
 
 <ul class="project-list">
-    {% for project in site.projects %}
-        <li>
-            <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-            {{ project.blurb }}
-            <img src="/assets/images/{{ project.img }}"
+    {% for project in site.projects reversed %}
+        <li class="project-item">
+            <div class="left-half">
+                <div class="left-text">
+                    <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
+                    {{ project.blurb }}
+                </div>
+            </div>
+            <div class="right-half">
+                <img class="project-image" src="/assets/images/{{ project.img }}"
+            </div>
         </li>
     {% endfor %}
 </ul>
